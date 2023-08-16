@@ -2,9 +2,9 @@ const express = require('express');
 const bodyParser = require('body-parser'); 
 const routes = express.Router(); 
 
-const{users} = require("../models")
-
 // import all models objects
+
+const{users} = require("../models")
 
 // ===== User's Routes =====
 routes.get('/users', (req, res) => {
